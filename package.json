@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+   "start:websocket":"node ./websocket/index.js",
+   "start:rest": "node ./api/index.js",
+    "start": "node index.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "eslint \"./**/*.js\""
   },
+ 
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -28,4 +32,5 @@
     "collectCoverage": false,
     "verbose": true
   }
+
 }
